@@ -9,6 +9,7 @@
 	 a:link {color:black; text-decoration:none;}
 	 a:visited {color:black; text-decoration:none;}
 	 a:hover {color:#a9a9a9; text-decoration: none;}
+
 	 h3 {
 		 font-szie : 1em;
 		 font-family : 'Nanum Gothic', sans-serif;
@@ -17,10 +18,22 @@
 	 h1 {
 		 font-size : 3em;
 		 font-family : 'Nanum Gothic', sans-serif;
+		 text-align : center;
 	 }
 
 	 p {
 		 font-family : 'Nanum Gothic', sans-serif;
+	 }
+
+	 img {
+		 width : 200px;
+		 height : 200px;
+		 margin-left : 70px;
+		 margin-right : 70px;
+		 margin-bottom : 50px;
+		 loading : "Lazy";
+		 alt : "";
+
 	 }
 
 	 .my-hr1 {
@@ -32,27 +45,31 @@
 		 color : #a9a9a9;
 	 }
 
+	 .my-hr2 {
+		 margin-top : 100px;
+		 border: dashed 2px #a9a9a9;
+	 }
+
 	 .image {
 		 text-align : center;
 	 }
 
 </style>
 <body>
-
-<p style="margin-top :0; margin-bottom : 0; text-align:center;"><a href="index.html">home</a></p>
+	<p style="margin-top :0; margin-bottom : 0; text-align:center;"><a href="index.html">home</a></p>
 	<hr class="my-hr1">
 	<h3 style="margin-top : 180px; text-align:center;">안녕하세요</h3>
-	<h1 style="text-align:center;">차재호에요.</h1>
-	<hr style="margin-top : 100px; border: dashed 2px #a9a9a9">
+	<h1>차재호에요.</h1>
+	<hr class="my-hr2">
 	<h2 style="margin-top : 15px; text-align:center;">About Me</h2>
-	<p><a href="introduce.html">자기소개</a></p>
-	<p>Project</p>
-	<p>do it!</p>
+
 	<div class="image">
-		<img src="images/introduce.png" alt="" loading="lazy">
-		<img src="images/dream.png" alt="" loading="lazy">
-		<img src="images/folder.png" alt="" loading="Lazy">
-</div>
+		<a href="introduce.html"><img src="images/introduce.png" style = "margin-left :0px;"></a>
+		<a href="project.html"><img src="images/project.png"></a>
+		<a href="dream.html"><img src="images/dream.png"></a>
+	</div>
+
+	<hr class="my-hr2">
 </body>
 </html>
 
