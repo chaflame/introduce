@@ -28,39 +28,52 @@
     a:hover {color:#a9a9a9; text-decoration: none;}
 
     h3 {
-        font-szie : 1em;
-        font-family : 'Nanum Gothic', sans-serif;
+        font-family : 'middle';
+        font-size : 1.5em;
     }
 
     h1 {
         font-size : 3em;
-        font-family : 'Nanum Gothic', sans-serif;
-    }
-
-    p {
-        font-family : 'Nanum Gothic', sans-serif;
+        font-family : 'bold', sans-serif;
+        text-align : center;
     }
 
     h2 {
-        font-size : 2em;
-        font-family : 'Nanum Gothic', sans-serif;
+        font-family : 'light';
+        font-size : 2.8em;
+    }
+
+    p {
+        font-family : 'light', sans-serif;
+    }
+
+    .text {
+        text-align : center;
     }
 
     .my-hr1 {
+        border: 0;
         border: 0;
         height: 2px;
         background:#ccc;
         margin-top : 0;
         color : #a9a9a9;
     }
+
+    .my-hr2 {
+        margin-top : 100px;
+        border: dashed 2px #a9a9a9;
+    }
+
 </style>
 <body>
-    <p style="margin-top :0; margin-bottom : 0; text-align:center;"><a href="index.html">home</a></p>
-    <hr class="my-hr1">
-    <h3 style="margin-top : 180px; text-align:center;">소개합니다</h3>
-    <h1 style="text-align:center;">나.</h1>
-    <hr style="margin-top : 100px; border: dashed 2px #a9a9a9">
-    <h2 style="margin-top : 15px; text-align:center;">About Me</h2>
-
+    <div class="text">
+        <p style="margin-top :0; margin-bottom : 0;"><a href="index.html">home</a></p>
+        <hr class="my-hr1">
+        <h3 style="margin-top : 180px; margin-bottom : 0px;">소개합니다</h3>
+        <h1 style="margin-top : 10px;">나.</h1>
+        <hr class="my-hr2">
+        <h2 style="margin-top : 15px; margin-bottom : 150px;">Profile</h2>
+    </div>
 </body>
 </html>
