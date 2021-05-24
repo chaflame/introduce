@@ -13,7 +13,6 @@
         font-family : 'middle';
         src : url("fonts/AppleSDGothicNeoR.ttf");
     }
-
     @font-face {
         font-family : 'text';
         src : url("fonts/AppleSDGothicNeoL.ttf")
@@ -22,10 +21,10 @@
         font-family : 'light';
         src : url("fonts/AppleSDGothicNeoUL.ttf");
     }
-
     a:link {color:black; text-decoration:none;}
     a:visited {color:black; text-decoration:none;}
     a:hover {color:#a9a9a9; text-decoration: none;}
+
 
     h3 {
         font-family : 'middle';
@@ -45,6 +44,38 @@
 
     p {
         font-family : 'light', sans-serif;
+    }
+
+    legend {
+        background-color: darkgrey;
+        color: #fff;
+        padding: 3px 6px;
+        font-family:'middle';
+        font-size : 1em;
+    }
+
+    fieldset {
+        align : center;
+        width: 50%;
+        margin-left:24%;
+        margin-bottom : 45px;
+    }
+
+    li {
+        font-family:'light';
+        font-size : 16px;
+    }
+
+
+    ol {
+        display: table;
+        margin-left : auto;
+        margin-right: auto;
+    }
+
+    ul {
+        text-align : left;
+        list-style-type : '- ';
     }
 
     .text {
@@ -75,5 +106,33 @@
         <hr class="my-hr2">
         <h2 style="margin-top : 15px; margin-bottom : 150px;">Profile</h2>
     </div>
+    <fieldset style="border:1px solid #a9a9a9">
+        <legend align="center">생애</legend>
+        <ul type = "-">
+            <li>영주시 출생</li>
+            <li>영주남부초등학교 졸업</li>
+            <li>영광중학교 졸업</li>
+            <li>영광고등학교 졸업</li>
+            <li>계명대학교 입학</li>
+        </ul>
+    </fieldset>
+    <fieldset style="border:1px solid #a9a9a9">
+        <legend align="center">특기</legend>
+        <ul>
+            <li>자바</li>
+        </ul>
+    </fieldset>
+    <fieldset style="border:1px solid #a9a9a9">
+        <legend align="center">좋아하는 것</legend>
+        <ul>
+            <li>산책</li>
+            <li>독서</li>
+            <li>음악 듣기</li>
+        </ul>
+    </fieldset>
+    <fieldset style="border:1px solid #a9a9a9">
+        <legend align="center">종교</legend>
+        <ul><li>무교</li></ul>
+    </fieldset>
 </body>
 </html>
