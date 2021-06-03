@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>Jaeho | Dream</title>
@@ -8,8 +8,8 @@
     * {
 		padding : 0;
 		margin : 0;
-		overflow-y:scroll;
 	}
+    body { overflow-y:scroll; }
     @font-face {
         font-family : 'bold';
         src : url("fonts/AppleSDGothicNeoB.ttf")
@@ -73,7 +73,13 @@
         margin-top : 100px;
         border: dashed 2px #a9a9a9;
     }
-
+    .dream {
+        font-size : 35px;
+        text-align:center;
+    }
+    .header {text-align : center;}
+    .introduce {text-align : center;}
+    #id {margin-top :0; margin-bottom : 0; }
 </style>
 <body>
     <div id ="container">
@@ -103,14 +109,20 @@
             <h3 style="margin-left : 22%; margin-top : 2%;">UI/UX</h3>
             <p style="margin-left : 22%; margin-top : 1%;">사용자가 제품과 서비스를 사용할 때 마주하게 되는 면</p>
 
-            <h1 style = "font-size: 4em;">⦁</h1>
+            <h1 style = "margin-top : 150px; font-size: 4em;">⦁</h1>
             <h1 style="font-size : 3em;">⦁</h1>
             <h1 style = "font-size : 2em;">⦁</h1>
 
-            <h2 style="margin-top: 18%; text-align : center;">이 많은 단어들을 요약하면</h2>
+        <h2 style="margin-top: 150px; text-align : center;">이 많은 단어들을 요약하면</h2>
+            
             <h1>#개발자</h1>
-            <img src="images/web-developer.png">
-            <p></p>
+            <img src="images/web-developer.png" style ="margin-top : 70px; margin-bottom: 70px;">
+            <p class="dream">처음 개발자가 되고 싶은 이유는 단순했습니다.</p>
+            <P class="dream">내가 만든 프로그램이 다른 사람들에게</P>
+            <P class="dream">유용하게 쓰일 때 가장 큰 보람을 느꼈습니다.</P>
+            <P class="dream">저는 기본기를 갖춘 개발자가 되고 싶습니다.</P>
+            <hr class="my-hr2">
+            <br>
         </div>
     </div>
 </body>
